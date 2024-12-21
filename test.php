@@ -5,5 +5,5 @@ require 'vendor/autoload.php';
 use App\FileHandler;
 
 $fileHandler = new FileHandler();
-$result = $fileHandler->readFile('dub.txt');
+$result = $fileHandler->readFile('text.txt');
 echo $result;
